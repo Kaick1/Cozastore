@@ -1,0 +1,22 @@
+/* Configuração e Clone do Repositório GIT */
+git config --global user.name "Kaick Borges"
+git config --global user.email kaick.borges.yt@gmail.com
+git clone 
+
+/* Criando o projeto WEB com solução*/
+''dotnet new mvc --name Cozastore
+
+dotnet new mvc --name Cozastore -f net6.0
+
+dotnet sln add Cozastore/Cozastore.csproj
+
+
+/* Para executar o projeto */
+dotnet watch run
+
+
+
+/* Subindo o projeto no GIT*/
+git add .
+git commit -m "Descrever as alterações realizadas no projeto"
+git push
